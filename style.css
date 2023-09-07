@@ -1,0 +1,160 @@
+*{
+    font-family: Arial, Helvetica, sans-serif, 'android';
+    text-align: justify;
+
+}
+
+@font-face{
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+body{
+    background-color: rgb(252, 240, 226);
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(129, 190, 154), rgb(54, 95, 67));
+    padding-top: 35px;
+    padding-bottom: 0px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+
+#h2doheader{
+    text-align: center;
+    margin: 0px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.182);
+    font-weight: normal;
+}
+
+#pdoheader{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+nav{
+    text-align: left;
+    padding: 10px;
+}
+
+
+.adonav{
+    color:rgb(183, 202, 186);
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 11px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.adonav:hover{
+    color: black;
+    background-color: rgb(130, 190, 130);
+    transition-duration: 0.5s;
+}
+
+main{
+    background-color: rgb(250, 253, 255);
+    padding: 20px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 800px;
+    min-height: 2200px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.484);
+}
+
+main p {
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+#h2domain{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'android';
+    font-weight: normal;
+}
+
+.todosh3{
+    background-image:linear-gradient(90deg, rgb(129, 190, 154), white);
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+}
+ 
+div.video{
+    margin: 0px -20px;
+    padding: px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    width: 70%;
+    height: 80%;
+}
+
+article{
+    background-color: rgb(174, 228, 197);
+    margin-top: 0px;
+    padding: 10px;
+    padding-top: 0px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.489);
+}
+
+article > ul{
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+#h3doarticle{
+    background-color: rgb(103, 152, 124);
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.488);
+}
+
+#primeiropdoarticle{
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+}
+
+article a{
+    text-decoration: none;
+    color: black;
+}
+
+article a:hover{
+    color: rgb(93, 93, 204);
+    text-decoration: underline;
+}
+
+
+footer{
+    background-image: linear-gradient(180deg, rgb(129, 190, 154), rgb(54, 95, 67));
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 0.8em;;
+}
+
+footer > p{
+    text-align: center;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+}
