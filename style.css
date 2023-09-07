@@ -46,11 +46,10 @@ nav{
 .adonav{
     color:rgb(183, 202, 186);
     text-decoration: none;
-    margin-left: 5px;
-    margin-right: 5px;
     padding: 11px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    font-size: 0.9em;
 }
 
 .adonav:hover{
